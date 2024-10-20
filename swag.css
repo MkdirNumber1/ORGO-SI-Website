@@ -1,20 +1,13 @@
 
+/*WEBSITE LINK*/
+/*https://mkdirnumber1.github.io/ORGO-SI-Website/*/
 
 
-
-.links {
-    background-color: whitesmoke;
-    display: block;
-    border: 1px solid black; /* Added thickness for clarity */
-    border-radius: 10px;
-    padding: 50px;
-    margin: 50px 100px;
-    text-align: center;
-}
 body {
     margin: 44px 200px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: linear-gradient(white, white, lightgreen);
 }
 body::before {
     content: "";
@@ -30,6 +23,23 @@ body::before {
 }
 
 
+
+.links {
+    background-color: whitesmoke;
+    display: block;
+    border: 1px solid black; /* Added thickness for clarity */
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px 100px;
+    text-align: center;
+    background-image: linear-gradient(whitesmoke, floralwhite, antiquewhite);
+}
+
+
+
+
+
+
 h1 {
     background-color: lightgreen;
     text-align: center;
@@ -43,6 +53,10 @@ h2 {
     text-align: start;
 }
 
+h3 {
+    text-align: start;
+}
+
 
 ul {
     display: block;
@@ -53,6 +67,7 @@ ul {
 }
 li {
     text-align: start;
+    padding: 5px;
 }
 a {
     text-decoration: none;
