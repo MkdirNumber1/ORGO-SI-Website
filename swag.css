@@ -97,7 +97,6 @@ footer {
 
 
 
-
 /* Responsive Styles */
 @media (max-width: 768px) {
     body {
@@ -110,18 +109,27 @@ footer {
     }
 
     h1 {
-        margin: 0; /* Center the heading */
+        margin: 0 10px; /* Center the heading with some side margin */
+        font-size: 1.5em; /* Adjust font size for better readability */
     }
 
     h2 {
-        margin: 0; /* Center the heading */
+        margin: 0 10px; /* Center the heading with some side margin */
+        font-size: 1.3em; /* Adjust font size */
     }
 
     footer {
         margin: 10px 0; /* Center footer */
+        font-size: 1.2em; /* Slightly larger font size for visibility */
     }
 
     ul {
-        padding: 15px; /* Adjust padding */
+        padding: 10px; /* Reduce padding for smaller screens */
+        margin: 0; /* Ensure no margin to fit better */
+    }
+
+    li {
+        padding: 8px; /* Reduce padding for list items */
+        font-size: 1em; /* Ensure font size is readable */
     }
 }
