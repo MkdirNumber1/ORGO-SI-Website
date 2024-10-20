@@ -1,12 +1,14 @@
-/* Global Styles */
+
+/*WEBSITE LINK*/
+/*https://mkdirnumber1.github.io/ORGO-SI-Website/*/
+
+
 body {
-    margin: 0; /* Remove default margin */
-    padding: 20px; /* Add some padding */
+    margin: 44px 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(white, white, lightgreen);
 }
-
 body::before {
     content: "";
     position: absolute;
@@ -20,27 +22,34 @@ body::before {
     z-index: -1; /* Places the blurred background behind other content */
 }
 
-/* Links Container */
+
+
 .links {
     background-color: whitesmoke;
+    display: block;
     border: 1px solid black; /* Added thickness for clarity */
     border-radius: 10px;
-    padding: 20px; /* Reduce padding for smaller screens */
-    margin: 20px; /* Use relative margin */
+    padding: 50px;
+    margin: 50px 100px;
     text-align: center;
     background-image: linear-gradient(whitesmoke, floralwhite, antiquewhite);
 }
 
-/* Headings */
+
+
+
+
+
 h1 {
     background-color: lightgreen;
     text-align: center;
     padding: 10px;
-    margin: 0; /* Remove fixed margin */
+    margin: 0 320px;
 }
 
 h2 {
     background-color: lightpink;
+    margin-right: 585px;
     text-align: start;
 }
 
@@ -48,49 +57,46 @@ h3 {
     text-align: start;
 }
 
-/* Lists */
+
 ul {
     display: block;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 20px; /* Adjust padding */
+    padding: 30px;
     margin: 0;
 }
-
 li {
     text-align: start;
     padding: 5px;
 }
-
-/* Links */
 a {
     text-decoration: none;
 }
-
 a:hover {
     color: red;
 }
-
 a:visited {
     color: orange;
 }
 
-/* Paragraphs */
+
 .paragraphs {
     border: 1px solid black;
     border-radius: 5px;
-    padding: 10px; /* Add padding for readability */
 }
 
-/* Footer */
+
 footer {
     font-weight: bold;
     font-size: large;
     border-radius: 3px;
     text-align: center;
     padding: 10px;
-    margin: 20px 0; /* Use relative margins */
+    margin: 0 450px;
 }
+
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
