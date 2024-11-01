@@ -24,7 +24,7 @@ body::before {
 
 
 
-.links {
+.everything {
     background-color: whitesmoke;
     display: block;
     border: 1px solid black; /* Added thickness for clarity */
@@ -42,6 +42,7 @@ body::before {
 
 h1 {
     background-color: lightgreen;
+    border-radius: 5px;
     text-align: center;
     padding: 10px;
     margin: 0 320px;
@@ -69,20 +70,61 @@ li {
     text-align: start;
     padding: 5px;
 }
-a {
-    text-decoration: none;
-}
 a:hover {
     color: red;
 }
-a:visited {
-    color: orange;
+
+
+
+
+
+
+.dropdown-toggle {
+
+    cursor: pointer;
+    color: blue;
+    margin: 10px 0;
 }
+
+.dropdown-toggle:hover {
+    color: red;
+}
+
+.dropdown {
+    display: none; /* Hide dropdowns by default */
+    list-style-type: none;
+    padding-left: 20px; /* Indent dropdown items */
+    transition: height 0.3s ease-out; /* Animate height */
+}
+.dropdown.show {
+    height: auto; /* Allow natural height when shown */
+}
+
+.dropdown li {
+    margin: 5px 0; /* Space between items */
+}
+.dropdown li a {
+    text-decoration: none;
+    color: black;
+}
+.dropdown li:hover {
+    text-decoration: underline; /* Underline on hover */
+    font-weight: bold;
+}
+
+
+
+
+
+
 
 
 .paragraphs {
     border: 1px solid black;
     border-radius: 5px;
+    padding: 30px;
+    letter-spacing: 1px;
+    font-size: 17px;
 }
 
 
